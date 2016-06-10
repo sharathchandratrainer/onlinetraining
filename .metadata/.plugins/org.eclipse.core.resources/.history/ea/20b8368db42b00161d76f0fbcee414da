@@ -1,0 +1,29 @@
+package keyword;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.Test;
+
+public class driverscript 
+{
+
+	@Test
+	public void driver() throws IOException
+	{
+		String xlpath="F:\\onlineTraining\\Selenium\\src\\com\\orgHrm\\Testdata\\Keyword.xlsx";
+		
+		FileInputStream fi=new FileInputStream(xlpath);
+		XSSFWorkbook wb=new XSSFWorkbook(fi);
+		XSSFSheet ws=wb.getSheet("Testcase");
+		XSSFSheet ws1=wb.getSheet("Teststeps");
+		int tcrc=ws.getLastRowNum();
+		int tsrc=ws1.getLastRowNum();
+		
+		System.out.println(tcrc+"---"+tsrc);
+		
+	}
+}

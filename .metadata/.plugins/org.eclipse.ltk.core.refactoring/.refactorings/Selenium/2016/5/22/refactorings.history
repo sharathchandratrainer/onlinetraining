@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;orgMaster.java&apos; to &apos;Functions/src/com.orghrm.Master&apos;&#x0D;&#x0A;- Original project: &apos;Selenium&apos;&#x0D;&#x0A;- Destination element: &apos;Functions/src/com.orghrm.Master&apos;&#x0D;&#x0A;- Original element: &apos;functions.orgMaster.java&apos;" description="Copy compilation unit" destination="=Functions/src&lt;com.orghrm.Master" element1="/src&lt;functions{orgMaster.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1464247550942" units="1" version="1.0"/>
+</session>

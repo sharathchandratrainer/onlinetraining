@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 5 elements from project &apos;Selenium&apos;&#x0D;&#x0A;- Original project: &apos;Selenium&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Primus Bank0.png&#x0D;&#x0A;     Primus Bank1.png&#x0D;&#x0A;     Primus Bank2.png&#x0D;&#x0A;     Primus Bank3.png&#x0D;&#x0A;     Primus Bank4.png" description="Delete elements" element1="src/screenshots/Primus Bank3.png" element2="src/screenshots/Primus Bank1.png" element3="src/screenshots/Primus Bank0.png" element4="src/screenshots/Primus Bank4.png" element5="src/screenshots/Primus Bank2.png" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="5" stamp="1462860757792" subPackages="false" version="1.0"/>
+</session>
